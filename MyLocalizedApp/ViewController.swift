@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionText: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        titleLabel.text = "Localization Tutorial"
+        descriptionText.text = "How to Create Reusable Localization Framework"
     }
-
-
 }
 
